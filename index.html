@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Reficio is a sustainable fashion prototype that turns thrifted clothing into one-of-one upcycled streetwear through bleach and coffee dye techniques."
+    />
+    <title>Reficio | Sustainable Upcycled Fashion</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23080706'/%3E%3Ctext x='50%25' y='57%25' dominant-baseline='middle' text-anchor='middle' fill='%23c9854f' font-size='42' font-family='Georgia'%3ER%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="loader" data-loader>
+      <div class="loader__mark">R</div>
+      <div class="loader__line"></div>
+      <p>Reworking thrift into statement pieces</p>
+    </div>
+
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Reficio home">
+        <span class="brand__mark">R</span>
+        <span>Reficio</span>
+      </a>
+      <nav>
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#process">Process</a>
+      </nav>
+      <a class="header-link" href="#film">Watch Film</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-dark" aria-labelledby="hero-title">
+        <div class="hero__texture" aria-hidden="true"></div>
+        <div class="sound-bars" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="hero__copy reveal">
+          <h1 id="hero-title">Reficio</h1>
+          <p class="hero__slogan">Look good, stand out, and give old clothes a second life.</p>
+          <p class="hero__body">
+            A gallery-walk prototype for one-of-one streetwear made from thrifted garments,
+            bleach illustration, and natural coffee dye.
+          </p>
+          <div class="hero__actions" aria-label="Hero links">
+            <a class="button button--primary" href="#film">Play the Product Film</a>
+            <a class="button button--ghost" href="#problem">Learn the Impact</a>
+          </div>
+        </div>
+        <div class="hero__showcase reveal" data-parallax>
+          <article class="campaign-card campaign-card--main">
+            <img src="./assets/lily-bleached-cami.jpeg" alt="Black cami with bleached lily artwork" />
+            <span>One-of-one bleach florals</span>
+          </article>
+          <article class="campaign-card campaign-card--stack">
+            <img src="./assets/koi-bleached-cami.jpeg" alt="Black cami with bleached koi artwork" />
+          </article>
+        </div>
+        <div class="hero__scroll">Scroll for the story</div>
+      </section>
+
+      <section class="impact-strip" aria-label="Fast fashion snapshot">
+        <div class="ticker">
+          <span>Overproduction</span>
+          <span>Trend pressure</span>
+          <span>Textile waste</span>
+          <span>Water pollution</span>
+          <span>Carbon emissions</span>
+          <span>Microtrends</span>
+        </div>
+      </section>
+
+      <section class="problem section-light" id="problem" aria-labelledby="problem-title">
+        <div class="section-heading reveal">
+          <p class="section-label">About Fast Fashion</p>
+          <h2 id="problem-title">The outfit cycle is moving faster than the planet can handle.</h2>
+          <p>
+            Fast fashion pushes constant newness: cheaper clothes, shorter trend cycles, and
+            more pieces bought for fewer wears. Reficio turns that pressure into a design brief.
+          </p>
+        </div>
+        <div class="stat-grid">
+          <article class="stat-card reveal">
+            <strong><span data-count="92">0</span>M</strong>
+            <p>tonnes of textile waste are estimated globally each year.</p>
+          </article>
+          <article class="stat-card reveal">
+            <strong><span data-count="10">0</span>%</strong>
+            <p>of global carbon emissions are commonly attributed to fashion supply chains.</p>
+          </article>
+          <article class="stat-card reveal">
+            <strong><span data-count="20">0</span>%</strong>
+            <p>of industrial wastewater is often linked to textile dyeing and finishing.</p>
+          </article>
+          <article class="stat-card reveal">
+            <strong><span data-count="52">0</span></strong>
+            <p>micro-seasons can train shoppers to see clothes as disposable content.</p>
+          </article>
+        </div>
+        <div class="trend-panel reveal">
+          <div>
+            <h3>Social feeds accelerate overconsumption.</h3>
+            <p>
+              A trend can peak and disappear before a garment is worn twice. The result is a
+              closet full of short-lived pieces and a culture that treats identity as a weekly haul.
+            </p>
+          </div>
+          <div class="feed-stack" aria-label="Mock social trend feed">
+            <span>#thriftflip</span>
+            <span>#fitcheck</span>
+            <span>#microtrend</span>
+            <span>#rewear</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="solution section-dark" id="solution" aria-labelledby="solution-title">
+        <div class="section-heading reveal">
+          <p class="section-label">Our Solution</p>
+          <h2 id="solution-title">Reficio makes waste feel rare.</h2>
+          <p>
+            We source thrifted garments, inspect their quality, then redesign them with bleach
+            illustration and coffee dye so every piece has a visible second life.
+          </p>
+        </div>
+        <div class="before-after reveal" aria-label="Before and after transformation">
+          <div class="ba-panel ba-panel--before">
+            <span>Before</span>
+            <p>Unwanted basics with strong fabric, weak story.</p>
+          </div>
+          <div class="ba-divider" aria-hidden="true"></div>
+          <div class="ba-panel ba-panel--after">
+            <img src="./assets/prototype-hoodie.png" alt="Prototype black hoodie with bleached floral linework" />
+            <span>After</span>
+            <p>One-of-one artwear with hand-finished surface design.</p>
+          </div>
+        </div>
+        <div class="technique-row">
+          <article class="technique reveal">
+            <h3>Bleach Drawing</h3>
+            <p>Controlled removal creates koi, lilies, vines, and linework directly inside the fabric.</p>
+          </article>
+          <article class="technique reveal">
+            <h3>Coffee Dyeing</h3>
+            <p>Natural dye adds warm, imperfect tones that make each garment impossible to duplicate.</p>
+          </article>
+          <article class="technique reveal">
+            <h3>One-of-One Drops</h3>
+            <p>No mass inventory. Each design carries the shape, flaws, and history of its original garment.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="film section-coffee" id="film" aria-labelledby="film-title">
+        <div class="film__copy reveal">
+          <p class="section-label">Product Video Prototype</p>
+          <h2 id="film-title">A short campaign loop for the gallery walk.</h2>
+          <p>
+            Built from your reference designs, this embedded film behaves like a social-first
+            teaser: fast cuts, garment details, tactile overlays, and a clear second-life message.
+          </p>
+          <button class="button button--dark" type="button" data-replay>Replay Animation</button>
+        </div>
+        <div class="phone-frame reveal" aria-label="Embedded Reficio product film">
+          <div class="phone-frame__top"></div>
+          <img src="./assets/reficio-product-film.gif" alt="Animated Reficio product film loop using upcycled garment photos" />
+          <div class="phone-frame__caption">
+            <span>9:16 campaign cut</span>
+            <span>Gallery walk ready</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section-light" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-heading reveal">
+          <p class="section-label">Gallery Showcase</p>
+          <h2 id="gallery-title">Six featured upcycled designs.</h2>
+          <p>Hover or tap each piece to reveal its material story. These are presentation prototypes, not online products.</p>
+        </div>
+        <div class="filter-bar" aria-label="Gallery filters">
+          <button class="filter is-active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="bleach">Bleach</button>
+          <button class="filter" type="button" data-filter="coffee">Coffee Dye</button>
+          <button class="filter" type="button" data-filter="prototype">Prototype</button>
+        </div>
+        <div class="gallery-grid">
+          <article class="gallery-card reveal" data-category="bleach">
+            <img src="./assets/koi-bleached-cami.jpeg" alt="Koi bleached cami" />
+            <div><h3>Koi Motion Cami</h3><p>Bleach koi illustration on thrifted black tank.</p></div>
+          </article>
+          <article class="gallery-card reveal" data-category="bleach coffee">
+            <img src="./assets/lily-bleached-cami.jpeg" alt="Lily bleached cami" />
+            <div><h3>Lily Night Cami</h3><p>Coffee-toned bleach lilies with celestial details.</p></div>
+          </article>
+          <article class="gallery-card reveal" data-category="bleach">
+            <img src="./assets/blue-floral-long-sleeve.jpeg" alt="Blue floral long sleeve" />
+            <div><h3>Blue Bloom Sleeve</h3><p>Soft line florals across a fitted thrifted top.</p></div>
+          </article>
+          <article class="gallery-card reveal" data-category="bleach">
+            <img src="./assets/tribal-line-tee.jpeg" alt="Black tee with white vine linework" />
+            <div><h3>Vineline Tee</h3><p>Graphic white vinework on a rescued black tee.</p></div>
+          </article>
+          <article class="gallery-card reveal" data-category="coffee prototype">
+            <img src="./assets/prototype-hoodie.png" alt="Prototype hoodie" />
+            <div><h3>Coffee Bloom Hoodie</h3><p>Generated prototype for an oversized drop piece.</p></div>
+          </article>
+          <article class="gallery-card reveal" data-category="coffee prototype">
+            <img src="./assets/prototype-denim.png" alt="Prototype denim jeans" />
+            <div><h3>Koi Panel Denim</h3><p>Generated prototype with dye panels and illustrated legs.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="sustainability section-dark" aria-labelledby="sustain-title">
+        <div class="section-heading reveal">
+          <p class="section-label">Sustainability Impact</p>
+          <h2 id="sustain-title">Why upcycling matters.</h2>
+          <p>
+            Reusing a garment keeps existing fabric in motion and reduces demand for newly
+            produced textiles. The circular economy starts when a piece is repaired, redesigned,
+            and worn again.
+          </p>
+        </div>
+        <div class="impact-model reveal">
+          <div class="orbit">
+            <span>Source</span><span>Redesign</span><span>Wear</span><span>Repair</span>
+          </div>
+          <div class="impact-copy">
+            <h3>Estimated waste reduction</h3>
+            <p>
+              For every 20 thrifted garments redesigned, Reficio can divert roughly one small
+              suitcase of clothing from donation overflow, landfill, or deadstock storage.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="process section-light" id="process" aria-labelledby="process-title">
+        <div class="section-heading reveal">
+          <p class="section-label">Behind The Process</p>
+          <h2 id="process-title">From thrift rack to gallery piece.</h2>
+        </div>
+        <ol class="timeline">
+          <li class="reveal"><span>01</span><h3>Source</h3><p>Find thrifted garments with quality fabric and redesign potential.</p></li>
+          <li class="reveal"><span>02</span><h3>Quality Check</h3><p>Inspect seams, stains, stretch, and fit before investing time into the piece.</p></li>
+          <li class="reveal"><span>03</span><h3>Bleach</h3><p>Sketch motifs, test exposure, and build linework slowly for control.</p></li>
+          <li class="reveal"><span>04</span><h3>Coffee Dye</h3><p>Add warm natural tones that make the finish softer and more organic.</p></li>
+          <li class="reveal"><span>05</span><h3>Final Product</h3><p>Rinse, dry, style, photograph, and present the second-life story.</p></li>
+        </ol>
+      </section>
+
+      <section class="values section-coffee" aria-labelledby="values-title">
+        <div class="section-heading reveal">
+          <p class="section-label">Brand Values</p>
+          <h2 id="values-title">Designed for people who do not want to dress like everyone else.</h2>
+        </div>
+        <div class="value-grid">
+          <article class="reveal"><h3>Sustainability</h3><p>Make existing clothes desirable again.</p></article>
+          <article class="reveal"><h3>Creativity</h3><p>Treat flaws, stains, and blank space as design prompts.</p></article>
+          <article class="reveal"><h3>Individuality</h3><p>Every piece is visibly different because every base garment is different.</p></article>
+          <article class="reveal"><h3>Transparency</h3><p>Show the garment, the process, and the reason it matters.</p></article>
+        </div>
+      </section>
+
+      <section class="social section-dark" aria-labelledby="social-title">
+        <div class="section-heading reveal">
+          <p class="section-label">Social Media Preview</p>
+          <h2 id="social-title">Built to be remembered after the judges leave.</h2>
+        </div>
+        <div class="social-grid">
+          <article class="social-card reveal">
+            <img src="./assets/reficio-product-film.gif" alt="Mock TikTok preview for Reficio" />
+            <h3>TikTok teaser</h3>
+            <p>Fast detail cuts, process captions, and a thrift-flip reveal.</p>
+          </article>
+          <article class="social-card reveal">
+            <img src="./assets/prototype-denim.png" alt="Mock Instagram campaign preview for Reficio denim" />
+            <h3>Instagram carousel</h3>
+            <p>Before, process, final look, and impact statement.</p>
+          </article>
+          <article class="social-card reveal">
+            <img src="./assets/lily-bleached-cami.jpeg" alt="Mock story preview for Reficio lily cami" />
+            <h3>Story poll</h3>
+            <p>Let classmates vote on the next motif or dye technique.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <strong>Reficio</strong>
+      <span>School business gallery walk prototype. No checkout. No mass production. Just second-life fashion.</span>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
